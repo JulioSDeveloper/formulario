@@ -1,0 +1,101 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"
+>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+   <header class="header">
+<h1 id="title">Formulario Musical</h1>
+<p id="description">Este formulario esta hecho para conocer sus gustos musicales</p>
+     </header>
+    <form id="survey-form">
+      <div class="form-group name-form">
+        <label id="name-label" for="name">Nombre: </label>
+        <input type="text" name="name" id="name" class="form-cont-rol" placeholder="Ingrese su nombre" required>
+        </div>
+        <div class="form-group email-form">
+          <label id="email-label" for="email">Email: </label>
+          <input type="email" id="email" placeholder="Ingrese su e-mail" required>
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="edad">Edad(Opcional): </label>
+<input type="number" id="number" min="10" max="99" placeholder="Su Edad">
+            </div>
+            <div class="form-group frecuent-music">
+      <p class="tipo-musica">Que tipo de musica escucha frecuentemente ?</p>
+      <select id="dropdown" required>
+        <option disabled select value>Seleccione el tipo de musica</option>
+        <option value="rock">Rock</option>
+        <option value="jazz">Jazz</option>
+        <option value="pop">Pop</option>
+        <option value="reggaeton">Reggaeton</option>
+        <option value="hip-hop">Hip-Hop</option>
+        <option value="otros">Otros</option>
+        </select>
+        </div>
+        <div class="form-group select-radio">
+          <p class="recomend">Recomendarias a otros el genero musical que escuchas?</p>
+          <label>
+            <input name="user-recommend" value="definitivamente" type="radio" class="input-radio" >Definitivamente
+            </label>
+            <label>
+              <input name="user-recommend" value="talvez" type="radio" class="input-radio">Tal vez</label>
+              <label>
+                <input name="user-recommend" value="no" type="radio" class="input-radio">Seguramente no
+                </label>
+          </div>
+          <div class="form-group more-like">
+            <p class="like-more">Que es lo que más te gusta de la Música</p>
+            <select id="dropdown" >
+<option disabled select value>Seleccione una opcion</option>
+<option value="letra">La letra</option>
+<option value="ritmo">El ritmo</option>
+<option value="video">El video</option>
+<option value="prefiero-no">Prefiero no responder</option>
+</select>
+      </div>
+      <div class="form-group select-music">
+        <p>Conoce a alguno de estos Artistas? </p>
+        <label>
+          <input name="prefer" value="justin" type="checkbox" class="input-checkbox">
+          Justin Bieber</label>
+          <label>
+            <input name="prefer" value="bruno-mars" type="checkbox" class="input-checkbox">Bruno Mars</label>
+        <label>
+          <input name="prefer" value="bunny" type="checkbox" class="input-checkbox">Bad Bunny</label>
+          <label>
+            <input name="prefer" value="ice-cube" type="checkbox" class="input-checkbox">Ice Cube</label>
+            <label>
+              <input name="prefer" value="weekend" type="checkbox" class="input-checkbox">The Weekend</label>
+              <label>
+                <input name="prefer" value="thousand" type="checkbox" class="input-check-box">Thousand Foot Krutch</label>
+                <label>
+                  <input name="prefer" value="linkin" type="checkbox" class="input-checkbox">Linkin Park</label>
+</div>
+<div class="form-group textarea">
+  <p class="descripcion">Algun comentario que desee hacer?</p>
+  <textarea id="comments" class="input-textarea" placeholder="Ingrese sus comentarios aqui.." >
+    </textarea>
+  </div>
+  <div class="form-group-button">
+    <button type="submit" id="submit"><b>Enviar<b></button>
+    </div>
+        </div>
+      </form>   
+      </body>
+    </head>
+  </html>
+
+
+
+
